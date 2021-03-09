@@ -7,7 +7,7 @@ class Ball {
       }
       this.body = Bodies.circle(x, y,20,options);
     this.radius=20;
-    this.image = loadImage("Paper.png")
+    this.image = loadImage("paper.png")
       World.add(world, this.body);
     }
     display(){
